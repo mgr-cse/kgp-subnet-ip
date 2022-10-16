@@ -7,5 +7,5 @@ while :; do
     COMMIT_ID=`uuidgen`
     git commit -m "$COMMIT_ID"
     git push -u origin main
-    sleep 1
+    sleep 60
 done
