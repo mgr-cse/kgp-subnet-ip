@@ -6,6 +6,6 @@ while :; do
     git add -A
     COMMIT_ID=`uuidgen`
     git commit -m "$COMMIT_ID"
-    git push -u origin master
+    git push -u origin main
     sleep 1
 done
